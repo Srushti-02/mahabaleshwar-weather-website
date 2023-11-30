@@ -5,14 +5,15 @@ body {
 }
 
 .card{
-    width: 30%;
+    width: 40%;
+    height: 40%;
     background: linear-gradient(rgb(71, 71, 173), rgb(134, 139, 200), rgb(214, 217, 238));
     align-content: center;
     text-align: center;
     border-radius: 25px;
     padding-top: 3%;
     opacity: 80%;
-    margin: 5% auto 0;
+    margin: 1% auto 0;
 }
 
 .card a{
@@ -49,4 +50,178 @@ body {
 .wind p{
     font-size: 1.0rem;
     display: block;
+}  
+
+
+/* desktops */
+@media screen and (min-width: 1800px){
+    body {
+        font-family: Georgia, "Times New Roman",
+              Times, serif;
+        background-color: #333131;
+    }
+    
+    .card{
+        width: 50%;
+        background: linear-gradient(rgb(71, 71, 173), rgb(134, 139, 200), rgb(214, 217, 238));
+        align-content: center;
+        text-align: center;
+        border-radius: 25px;
+        padding-top: 3%;
+        opacity: 80%;
+        margin: 1% auto 0;
+    }
+    
+    .card a{
+        font-size: 3.2rem;
+        color: rgb(0, 0, 0);
+    }
+    
+    .card img{
+        padding-top: 5%;
+        height: 40%;
+        width: 40%;
+    }
+    
+    .card p{
+        font-size: 5rem;
+        color: #000000;
+    }
+    
+    .humidity img{
+        height: 50%;
+        width: 40%;
+    }
+    
+    .humidity p{
+        font-size: 2rem;
+        display: block;
+    }
+    
+    .wind img{
+        height: 40%;
+        width: 35%;
+    }
+    
+    .wind p{
+        font-size: 2.0rem;
+        display: block;
+    }  
+}
+
+
+
+
+/* tablets */
+@media screen and (max-width: 1000px){
+    body {
+        font-family: Georgia, "Times New Roman",
+              Times, serif;
+        background-color: #333131;
+    }
+    
+    .card{
+        width: 50%;
+        background: linear-gradient(rgb(71, 71, 173), rgb(134, 139, 200), rgb(214, 217, 238));
+        align-content: center;
+        text-align: center;
+        border-radius: 25px;
+        padding-top: 3%;
+        opacity: 80%;
+        margin: 2% auto 0;
+    }
+    
+    .card a{
+        font-size: 2.1rem;
+        color: rgb(0, 0, 0);
+    }
+    
+    .card img{
+        padding-top: 5%;
+        height: 40%;
+        width: 40%;
+    }
+    
+    .card p{
+        font-size: 4rem;
+        color: #000000;
+    }
+    
+    .humidity img{
+        height: 40%;
+        width: 30%;
+    }
+    
+    .humidity p{
+        font-size: 1.2rem;
+        display: block;
+    }
+    
+    .wind img{
+        height: 30%;
+        width: 25%;
+    }
+    
+    .wind p{
+        font-size: 1.2rem;
+        display: block;
+    }  
+}
+
+
+/* mobile phones */
+
+@media screen and (max-width: 720px){
+    body {
+        font-family: Georgia, "Times New Roman",
+              Times, serif;
+        background-color: #333131;
+    }
+    
+    .card{
+        width: 70%;
+        background: linear-gradient(rgb(71, 71, 173), rgb(134, 139, 200), rgb(214, 217, 238));
+        align-content: center;
+        text-align: center;
+        border-radius: 25px;
+        padding-top: 3%;
+        opacity: 80%;
+        margin: 13% auto 0;
+    }
+    
+    .card a{
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
+    }
+    
+    .card img{
+        padding-top: 5%;
+        height: 40%;
+        width: 40%;
+    }
+    
+    .card p{
+        font-size: 4rem;
+        color: #000000;
+    }
+    
+    .humidity img{
+        height: 40%;
+        width: 30%;
+    }
+    
+    .humidity p{
+        font-size: 1.2rem;
+        display: block;
+    }
+    
+    .wind img{
+        height: 30%;
+        width: 25%;
+    }
+    
+    .wind p{
+        font-size: 1.2rem;
+        display: block;
+    }  
 }
