@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="card">
+        <!--heading-->
+        <a>Weather in Mahabaleshwar</a>
+    
+        <!--content-->
+        <div>
+            <!--image-->
+            <img src="cloudy_sunny.png" alt="cloudy">
+
+            <!--temperature in degree celsius-->
+            <p class="temp" style="color: rgb(66, 64, 64);">22 °C</p>
+        </div>
+        <!--humidity and wind speed-->
+        <div class="otherDetails" style="display: flex; justify-content: space-evenly; padding-bottom: 5%; padding-left: 12%;">
+            <div class="humidity" style="display: flex; align-items: center; text-align: center;">
+                <img src="thermometer.png" alt="thermometer">
+                <div>
+                    <p>Humidity</p>
+                    <p class="hdt">23</p>
+                </div>
+            </div>
+            <div class="wind" style="display: flex; align-items: center; text-align: left;">
+                <img src="wind.png" alt="wind_speed">
+                <div>
+                    <p>Wind Speed</p>
+                    <p class="ws">30</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

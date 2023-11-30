@@ -1,0 +1,52 @@
+body {
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    background-color: #333131;
+}
+
+.card{
+    width: 30%;
+    background: linear-gradient(rgb(71, 71, 173), rgb(134, 139, 200), rgb(214, 217, 238));
+    align-content: center;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 3%;
+    opacity: 80%;
+    margin: 5% auto 0;
+}
+
+.card a{
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+}
+
+.card img{
+    padding-top: 5%;
+    height: 40%;
+    width: 40%;
+}
+
+.card p{
+    font-size: 4rem;
+    color: #000000;
+}
+
+.humidity img{
+    height: 40%;
+    width: 30%;
+}
+
+.humidity p{
+    font-size: 1.0rem;
+    display: block;
+}
+
+.wind img{
+    height: 30%;
+    width: 20%;
+}
+
+.wind p{
+    font-size: 1.0rem;
+    display: block;
+}
