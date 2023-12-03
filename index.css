@@ -211,7 +211,7 @@ body {
     }
     
     .humidity p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         display: block;
     }
     
@@ -221,7 +221,7 @@ body {
     }
     
     .wind p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         display: block;
     }  
 }
