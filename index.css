@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, "Times New Roman",
           Times, serif;
-    background-color: #333131;
+    background-color: #ffffff;
 }
 
 .card{
@@ -179,7 +179,7 @@ body {
     }
     
     .card{
-        width: 90%;
+        width: 95%;
         background: linear-gradient(rgb(71, 71, 173), rgb(134, 139, 200), rgb(214, 217, 238));
         align-content: center;
         text-align: center;
